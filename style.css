@@ -1,0 +1,350 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Barlow Condensed", sans-serif;
+    
+    
+    
+}
+.order{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.order p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    color:  rgba(22, 37, 66, 1);
+    
+    
+    
+    
+}
+.orderbutton{
+    width: 151px;
+    background-color:  rgba(232, 239, 242, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.typemaster{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 84px;
+    gap: 64px;
+    
+   
+}
+.typemasterp{
+    width: 327px;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.typemasterp p2{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    text-transform: uppercase;
+    color:   rgba(22, 37, 66, 1);
+    margin: 0;
+    letter-spacing: 4px;
+    
+}
+.typemasterp p1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(123, 139, 173, 1);
+    
+}
+.typemaster-release{
+    width: 327px;
+    display: flex;
+    justify-content: space-between;
+}
+.release1 p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+   
+    
+}
+.release1 {
+    width: 150px;
+    height: 48px;
+    text-transform: uppercase;
+    border-radius: 8px ;
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(241, 103, 24, 1);
+}
+.release2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color:  rgba(123, 139, 173, 1);
+    text-transform: uppercase;
+}
+.gimg{
+    width: 100%;
+
+    display: flex;
+    
+    gap: 24px;
+
+}
+.gimg1{
+    width: 129px;
+    height: 193px;
+    top: 840px;
+    left: -22px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.gimg2{
+    width: 220px;
+    height: 193px;
+    top: 840px;
+    left: 131px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.mechanical{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.mechanical1{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.mechanical p1{
+    
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+    
+    
+}
+.mechanical2 p2 {
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  rgba(123, 139, 173, 1);
+
+    
+}
+.mechanical2 {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.main1{
+    display: flex;
+    margin-left: 24px;
+    flex-direction: column;
+    gap: 64px;
+    text-align: center;
+    width: 100%;
+}
+.compatible{
+    width: 327px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.hstyle{
+    
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: center;
+    color:  rgba(22, 37, 66, 1);
+    
+}
+.pstyle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(123, 139, 173, 1);
+    
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  rgba(123, 139, 173, 1);
+    
+}
+.responsive1{
+    display: none;
+}
+
+
+@media  (768px <= width <= 1440px) {
+    .typemaster{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .order {
+        width: 689px
+    }
+    .gimg1{
+        width: 214px;
+        height: 320px;
+    }
+    .gimg{
+        margin-left: 30px;
+    }
+    
+    .gimg2 {
+        width: 445px;
+        height: 320px;
+    }
+    .mechanical{
+        max-width: 900px;
+        width: 100%;
+        display:grid;
+        grid-template-columns: auto auto;
+
+    
+    }
+    .typeimg{
+        width: 478px;
+        height: 425px;
+        
+        overflow: hidden;        
+    }
+    .main1{
+        max-width: 900px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "div1 div2"
+        "div3 div4";
+        margin: 0;
+    }
+    body{
+         gap: 24px;
+        
+    }
+    
+  
+}
+@media (min-width:1440px) {
+    body{
+        gap: 30px;
+    }
+    .order{
+        margin-left: 110px;
+    }
+    .typemaster{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+        margin-left: 110px;
+    }
+    .main1{
+        display: flex;
+        flex-direction: row;
+    }
+    .gimg1{
+        width: 255px;
+        height: 480px;
+    }
+    .gimg2{
+        width: 445px;
+        height: 480px;
+        top: 706px;
+        left: 450px;
+        gap: 0px;
+        opacity: 0px;
+        
+    }
+    .gimg{
+        margin-left: 110px;
+        position: relative;
+    }
+    .mechanical{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 850px;
+        top: 750px;
+    }
+    .typeimg{
+              
+        width: 540px;
+        height: 480px;
+       
+             
+    }
+    .responsive1{
+        display: block;
+        position: absolute;
+        top: 940px;
+        left: -60px;
+    }
+}
