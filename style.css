@@ -24,10 +24,8 @@ body{
     text-transform: uppercase;
     color:  rgba(22, 37, 66, 1);
     
-    
-    
-    
 }
+
 .orderbutton{
     width: 151px;
     background-color:  rgba(232, 239, 242, 1);
@@ -85,10 +83,35 @@ body{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: white;
-   
+    cursor: pointer;
     
 }
+.orderbutton{
+    width: 175px;
+    height: 58px;
+    top: 55px;
+    left: 1100px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: 0;
+    color:  rgba(22, 37, 66, 1);
+    background-color:  rgba(232, 239, 242, 1);
+    cursor: pointer;
+    
+}
+.orderbutton:active{
+    color: white;
+    background-color:  rgba(22, 37, 66, 1);
+    transform: scale(0.95);
+}
+
+
 .release1 {
+    font-family: "Barlow Condensed", sans-serif;
     width: 150px;
     height: 48px;
     text-transform: uppercase;
